@@ -1,13 +1,17 @@
-function reverseArray(array){
-    const reversedArray = [];
+// function reverseArray(array){
+//     const reversedArray = [];
 
-    for(let i = array.length-1; i>=0; i--){
-        reversedArray.push(array[i]);
-    }
-    return reversedArray;
-}
+//     for(let i = array.length-1; i>=0; i--){
+//         reversedArray.push(array[i]);
+//     }
+//     return reversedArray;
+// }
 
-const numbers = [1,2,3,4,5];
-const reversedNumbers = reverseArray(numbers);
+// const numbers = [1,2,3,4,5];
+// const reversedNumbers = reverseArray(numbers);
 
-console.log(reversedNumbers);
+// console.log(reversedNumbers);
+
+let number = [1,2,3,4,5,6];
+const newNumber = number.reverse();
+console.log(newNumber);
